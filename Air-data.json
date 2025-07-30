@@ -1,0 +1,22 @@
+{
+  "current_aqi": 87,
+  "pollutants": [
+    {
+      "name": "PM2.5",
+      "value": 32,
+      "unit": "µg/m³",
+      "status": "Moderate"
+    }
+  ],
+  "sources": [
+    {"name": "Vehicles", "percentage": 45},
+    {"name": "Industries", "percentage": 30},
+    {"name": "Agriculture", "percentage": 15},
+    {"name": "Other", "percentage": 10}
+  ],
+  "health_guidelines": [
+    "Wear masks if AQI > 150",
+    "Close windows when PM2.5 > 35 µg/m³",
+    "Avoid outdoor exercise during high pollution"
+  ]
+}
