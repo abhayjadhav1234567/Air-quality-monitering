@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Quality Dashboard</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 Air Quality Monitor</h1>
+    <p>Real-time pollution data & health advisories</p>
+  </header>
+
+  <main>
+    <!-- AQI Display -->
+    <section class="card">
+      <h2>Current AQI: <span id="aqi-value">--</span></h2>
+      <div class="aqi-scale">
+        <div class="level good">0-50 (Good)</div>
+        <div class="level moderate">51-100 (Moderate)</div>
+        <div class="level unhealthy">101-150 (Unhealthy)</div>
+      </div>
+    </section>
+
+    <!-- Pollution Sources -->
+    <section class="card">
+      <h2>Top Pollution Sources</h2>
+      <div id="sources-chart" class="chart"></div>
+    </section>
+
+    <!-- Health Tips -->
+    <section class="card">
+      <h2>Health Advisories</h2>
+      <ul id="health-tips"></ul>
+    </section>
+  </main>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
