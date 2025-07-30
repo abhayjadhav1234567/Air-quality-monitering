@@ -1,0 +1,45 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* AQI Scale */
+.aqi-scale {
+  display: flex;
+  margin-top: 15px;
+}
+.level {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+.good { background: #4CAF50; }
+.moderate { background: #FFC107; }
+.unhealthy { background: #F44336; }
+
+/* Charts */
+.chart {
+  height: 200px;
+  background: #eee;
+  margin: 20px 0;
+  border-radius: 5px;
+}
